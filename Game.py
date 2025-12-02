@@ -104,7 +104,7 @@ class Brick(GameObject):
             self.delete()
         else:
             self.canvas.itemconfig(self.item,
-                                   fill=Brick.COLORS.get(self.hits, "#C11F1F"))
+                                   fill=Brick.COLORS.get(self.hits, '#FFFFFF'))
 
 
 class Game(tk.Frame):
@@ -210,7 +210,7 @@ class Game(tk.Frame):
         self.add_ball()
         self.update_hud()
         # show start text
-        self.text = self.draw_text(300, 200, 'Press Space to start or resume',size=20)
+        self.text = self.draw_text(300, 200, 'Press Space to start or resume',size= 20)
 
     def add_ball(self):
         if self.ball is not None:
