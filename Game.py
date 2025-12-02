@@ -68,7 +68,7 @@ class Paddle(GameObject):
                                        y - self.height / 2,
                                        x + self.width / 2,
                                        y + self.height / 2,
-                                       fill='#FFB643')
+                                       fill="#4214AD")
         super(Paddle, self).__init__(canvas, item)
 
     def set_ball(self, ball):
